@@ -1,38 +1,260 @@
-.App {
+td {
+  padding: 1rem;
+}
+
+.title {
+  width: 310px;
+  height: 40px;
+  padding-top: 1.5rem;
+  background-color: #1C162C;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-type {
+  width: 200px;
+  height: 40px;
+  padding-top: 1.5rem;
+  background-color: #1C162C;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+}
+
+.type-button {
+  width: 100px;
+  height: 40px;
   text-align: center;
+  background-color: #1C162C;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.base {
+  text-align: center;
+  padding-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.default-primary a{
+  font-size: 0.875rem;
+  background-color: #8257E5;
+  padding: 0.75rem 1.5rem;
+  width: 176px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.hover-primary a {
+  font-size: 0.875rem;
+  background-color: #9674E5;
+  padding: 0.75rem 1.5rem;
+  width: 162px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.focus-primary a {
+  font-size: 0.875rem;
+  background-color: #8257E5;
+  padding: 0.75rem 1.5rem;
+  width: 163px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 3px solid white;
+}
+
+.disabled-primary a {
+  font-size: 0.875rem;
+  background-color: #8257E5;
+  padding: 0.75rem 1.5rem;
+  width: 183px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.loading-primary a {
+  font-size: 0.875rem;
+  background-color: #8257E5;
+  padding: 0.75rem 1.5rem;
+  width: 180px;
+  height: 20px;
+  margin-left: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: .5rem;
+}
+
+.mobile-primary a {
+  font-size: 0.875rem;
+  background-color: #8257E5;
+  padding: 0.75rem 1.5rem;
+  width: 201px;
+  height: 48px;
   color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+
+  width: 180px;
+  height: 20px;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
 }
 
-.App-link {
-  color: #61dafb;
+.default-secondary a{
+  font-size: 0.875rem;
+  background-color: #3C3748;
+  padding: 0.75rem 1.5rem;
+  width: 176px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hover-secondary a {
+  font-size: 0.875rem;
+  background-color: #6A617F;
+  padding: 0.75rem 1.5rem;
+  width: 162px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.focus-secondary a {
+  font-size: 0.875rem;
+  background-color: #3C3748;
+  padding: 0.75rem 1.5rem;
+  width: 163px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 3px solid white;
+}
+
+.disabled-secondary a {
+  font-size: 0.875rem;
+  background-color: #3C3748;
+  padding: 0.75rem 1.5rem;
+  width: 183px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.loading-secondary a {
+  font-size: 0.875rem;
+  background-color: #3C3748;
+  padding: 0.75rem 1.5rem;
+  width: 180px;
+  height: 20px;
+  margin-left: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.mobile-secondary a {
+  font-size: 0.875rem;
+  background-color: #3C3748;
+  padding: 0.75rem 1.5rem;
+  width: 201px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.default-tertiary a,
+.hover-tertiary a,
+.mobile-tertiary a,
+.disabled-tertiary a {
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem;
+  width: 176px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+}
+
+.focus-tertiary a {
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem;
+  width: 163px;
+  height: 48px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 3px solid white;
+}
+
+.loading-tertiary a {
+  font-size: 0.875rem;
+  padding: 0.75rem 1.5rem;
+  width: 180px;
+  height: 20px;
+  margin-left: 1.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
 }
